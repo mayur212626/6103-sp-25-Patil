@@ -1,80 +1,67 @@
 # 6103-sp-25-Patil
-Prediction of Ship Type and Course Over Ground (COG) from AIS Dataset
-DATS 6103 – Data Mining – Final Project
+# Prediction of Ship Type and Course Over Ground (COG) from AIS Dataset
+## DATS 6103 Data Mining – Final Project
 
-Student:
+**Student:**  
+- Mayur Patil  
 
-Mayur Patil
+**Instructor:** Sushovan Majhi  
+**Semester:** Fall 2025  
 
-Instructor: Sushovan Majhi
-Presentation Date: December 2, 2025
-Semester: Fall 2025
+---
 
-DATS6103 – Data Mining | Final Project | Fall 2025
-
-Project Overview
-
-This project focuses on developing a regression-based analytical system to predict a vessel’s Course Over Ground (COG) and analyze ship type characteristics using Automatic Identification System (AIS) data.
-
-The project includes:
-
-Comprehensive data preprocessing
-Handling missing values, duplicates, outliers, categorical encoding, and scaling
-
-Feature engineering & dimensionality reduction
-Using Random Forest, VIF, PCA, and SVD
-
-Regression modeling for COG prediction
-Linear Regression + Stepwise Backward Regression
-
-Statistical & performance evaluation
-R², MSE, AIC, BIC, t-test, F-test, confidence intervals
-
-Goal: Build a reliable model to support maritime navigation analytics and vessel behavior understanding.
-
-Repository Structure
+## Repository Structure
+```text
 AIS-COG-Prediction/
 ├── Proposal/
-│   └── project_proposal.pdf               
+│   └── project_proposal.pdf
 ├── Data/
-│   ├── raw/                               
-│   ├── cleaned/                           
-│   └── processed/                         
+│   ├── raw/
+│   ├── cleaned/
+│   └── processed/
 ├── Code/
-│   ├── notebooks/                         
+│   ├── notebooks/
 │   │   ├── 01_data_preprocessing.ipynb
 │   │   ├── 02_feature_engineering.ipynb
 │   │   ├── 03_regression_model.ipynb
 │   │   └── 04_model_evaluation.ipynb
-│   ├── scripts/                           
+│   ├── scripts/
 │   │   ├── preprocess.py
 │   │   ├── feature_selection.py
 │   │   ├── train_regression.py
 │   │   └── evaluate_model.py
-│   ├── utils/                             
+│   ├── utils/
 │   ├── results/
-│   │   ├── figures/                       
-│   │   ├── models/                       
-│   │   └── metrics/                       
-│   ├── requirements.txt                  
-│   └── README.md                          
+│   │   ├── figures/
+│   │   ├── models/
+│   │   └── metrics/
+│   ├── requirements.txt
+│   └── README.md
 └── Presentation/
     └── Final_Presentation_Slides.pdf
+```
 
-Data Source
 
-Dataset used:
 
-Denmark Maritime Authority – AIS Open Data
+## Data Source
+The dataset used in this project is AIS (Automatic Identification System) maritime tracking data.
 
-Region: Kattegat Strait
+- **Source:** Denmark Maritime Authority – AIS Open Access Database  
+- **Region:** Kattegat Strait  
+- **Period:** January 1 – March 10, 2022  
+- **Total Records:** ~358,351 AIS messages  
+- **Features Include:**  
+  - Numerical: speed, heading, draught, width, length  
+  - Categorical: ship type, navigational status  
 
-Period: Jan 1 – Mar 10, 2022
 
-Records: ~358,351 entries
 
-Attributes:
+## Project Timeline
 
-Numerical: speed, heading, draught, width, length, etc.
+| Phase | Dates | Tasks |
+|-------|-------|-------|
+| **Phase 1: Data Preparation** | Nov 16–22 | Load dataset, EDA, handle missing values, remove duplicates, merge rare categories |
+| **Phase 2: Feature Engineering** | Nov 23–29 | Outlier removal (K-Means), scaling, encoding, Random Forest importance, VIF, PCA/SVD |
+| **Phase 3: Modeling & Presentation** | Nov 30–Dec 2 | Regression modeling, evaluation metrics, statistical tests, plots, presentation slides |
 
 Categorical: ship type, navigational status
