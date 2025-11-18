@@ -7,10 +7,10 @@ Student:
 Mayur Patil
 
 Instructor: Sushovan Majhi
-Presentation Date: December 2, 2024
-Semester: Fall 2024
+Presentation Date: December 2, 2025
+Semester: Fall 2025
 
-DATS6103 – Data Mining | Final Project | Fall 2024
+DATS6103 – Data Mining | Final Project | Fall 2025
 
 Project Overview
 
@@ -35,13 +35,13 @@ Goal: Build a reliable model to support maritime navigation analytics and vessel
 Repository Structure
 AIS-COG-Prediction/
 ├── Proposal/
-│   └── project_proposal.pdf               # Your project proposal
+│   └── project_proposal.pdf               
 ├── Data/
-│   ├── raw/                               # Original AIS data
-│   ├── cleaned/                           # After preprocessing
-│   └── processed/                         # Final modeling data
+│   ├── raw/                               
+│   ├── cleaned/                           
+│   └── processed/                         
 ├── Code/
-│   ├── notebooks/                         # Jupyter Notebooks (EDA & modeling)
+│   ├── notebooks/                         
 │   │   ├── 01_data_preprocessing.ipynb
 │   │   ├── 02_feature_engineering.ipynb
 │   │   ├── 03_regression_model.ipynb
