@@ -12,33 +12,11 @@
 
 ## Repository Structure
 ```text
-# AIS-COG-Prediction/
-# ├── Proposal/
-# │   └── project_proposal.pdf
-# ├── Data/
-# │   ├── raw/
-# │   ├── cleaned/
-# │   └── processed/
-# ├── Code/
-# │   ├── notebooks/
-# │   │   ├── 01_data_preprocessing.ipynb
-# │   │   ├── 02_feature_engineering.ipynb
-# │   │   ├── 03_regression_model.ipynb
-# │   │   └── 04_model_evaluation.ipynb
-# │   ├── scripts/
-# │   │   ├── preprocess.py
-# │   │   ├── feature_selection.py
-# │   │   ├── train_regression.py
-# │   │   └── evaluate_model.py
-# │   ├── utils/
-# │   ├── results/
-# │   │   ├── figures/
-# │   │   ├── models/
-# │   │   └── metrics/
-# │   ├── requirements.txt
-# │   └── README.md
-# └── Presentation/
-#     └── Final_Presentation_Slides.pdf
+#AIS-COG-Prediction/
+#├── Model.ipynb
+#├── Q&A.pdf
+#├── README.md
+#└── data_preprocessing.py
 ```
 
 # Features:
